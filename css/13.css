@@ -1,0 +1,28 @@
+ul li:nth-child(2){
+    border: 2px solid red;
+}
+ul li:nth-child(5){
+    list-style-type: none;
+}
+ul li:nth-child(4){
+    list-style-type:square;
+}
+
+ul li:nth-child(2n+1){
+    color:blue;
+}
+ul li:nth-child(4n+1){
+    border-left: 1rem solid green;
+}
+ul li:nth-child(4n+4){
+    border-right: 1rem solid green;
+}
+ul li:nth-child(2n){
+    color:red;
+}
+ul li:nth-child(odd){
+    text-transform: uppercase;
+}
+ul li:nth-child(even){
+    background-color: aqua;
+}
