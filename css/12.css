@@ -1,0 +1,8 @@
+ul li:last-child {
+    background-color: blue;
+}
+
+ul li:last-of-type {
+    text-transform: uppercase;
+    color: white;
+}
