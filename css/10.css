@@ -1,0 +1,22 @@
+a{
+    color: red;
+}
+
+a[href='tienda.html']{
+    text-transform: uppercase;
+}
+a[href='http://www.google.com']{
+    color:aquamarine;
+}
+a[href^="http"]{
+    text-decoration: none;
+}
+
+a[href$=".html"]{
+   border:1px solid yellow;
+}
+
+
+input[type="tel"]{
+    color:rgb(163, 255, 127);
+}
